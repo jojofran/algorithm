@@ -1,12 +1,14 @@
 package main
 
-import "github/jojofran/algorithm/array"
+import (
+	"github/jojofran/algorithm/leetcode_array"
+)
 
 func main() {
 	str := "dvdf"
-	_ = array.LengthOfLongestSubstring(str)
+	_ = leetcode_array.LengthOfLongestSubstring(str)
 
 	str1 := "babad"
-	s := array.LongestPalindrome(str1)
+	s := leetcode_array.LongestPalindrome(str1)
 	print(s)
 }
