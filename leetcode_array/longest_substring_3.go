@@ -1,4 +1,4 @@
-package array
+package leetcode_array
 
 func LengthOfLongestSubstring(s string) int {
 

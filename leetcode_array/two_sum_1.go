@@ -1,7 +1,7 @@
-package array
+package leetcode_array
 
 //https://leetcode-cn.com/problems/two-sum/
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	resultDic := make(map[int]int)
 
 	for k, v := range nums {

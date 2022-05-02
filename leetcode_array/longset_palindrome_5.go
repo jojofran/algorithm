@@ -1,4 +1,4 @@
-package array
+package leetcode_array
 
 //https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/
 

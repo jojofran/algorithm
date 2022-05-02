@@ -1,4 +1,4 @@
-package array
+package leetcode_array
 
 // Definition for singly-linked list.
 type ListNode struct {
@@ -7,7 +7,7 @@ type ListNode struct {
 }
 
 //https://leetcode-cn.com/problems/add-two-numbers/
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	dummy := &ListNode{Next: &ListNode{}}
 	l3 := dummy
